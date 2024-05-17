@@ -232,12 +232,16 @@ nav {
 
 .section-asymetrique {
   display: grid;
-  grid-template: 200px repeat(3, auto) 100px / 1fr 600px 1fr;
+  grid-template: 200px repeat(3, auto) / 1fr 600px 1fr;
   background: #f1f1f1;
 }
- .section-asymetrique h2 {
-  grid-area: 1/3/2/-1;
-  margin-left: -250px;
+.section-asymetrique .Texte1{
+  grid-area: 1/2/2/-1;
+  margin-top: 100px;
+  
+}
+ .section-asymetrique .Titre1 {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,6 +249,42 @@ nav {
   font-size: 35px;
   font-family: "Merienda one", sans-serif;
   /* text-transform: uppercase; */
+  padding-bottom: 20px;
+} 
+
+.section-asymetrique .SsTitre1 {
+  margin-left:400px;
+  display: flex;
+  justify-content:flex-end;
+  color: #333;
+  font-size: 20px;
+  font-family: "Nunito sans", sans-serif;
+  /* text-transform: uppercase; */
+  padding-bottom: 20px;
+} 
+
+.section-asymetrique .Texte2{
+  grid-area: 2/1/3/3;
+  margin-top: 600px;
+  margin-left: 200px;
+  
+}
+ .section-asymetrique .Titre2 {
+  display: flex;
+  justify-content: flex-start;
+  color: rgb(190,154,94);
+  font-size: 35px;
+  font-family: "Merienda one", sans-serif;
+  padding-bottom: 20px;
+} 
+
+.section-asymetrique .SsTitre2 {
+  display: flex;
+  justify-content: flex-start;
+  
+  color: #333;
+  font-size: 20px;
+  font-family: "Nunito sans", sans-serif;
   padding-bottom: 20px;
 } 
 
@@ -296,8 +336,9 @@ nav {
 
 
 .bloc-txt-left p {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   background: rgb(190,154,94);
+  font-size: 20px;
   margin-top: 115px;
   line-height: 40px;
   padding: 15px;
@@ -323,9 +364,10 @@ nav {
 .bloc-txt-right p {
   line-height: 40px;
   padding: 15px;
+  font-size: 20px;
   margin-left: 170px;
   margin-top: 30px;
-  transform:rotate(90deg);
+  transform:rotate(-90deg);
   background: rgb(190,154,94);
 
 }
