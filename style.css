@@ -288,6 +288,31 @@ nav {
   padding-bottom: 20px;
 } 
 
+.section-asymetrique .Texte3{
+  grid-area: 3/2/4/-1;
+  margin-top: 300px;
+  margin-left: 300px;
+  
+}
+ .section-asymetrique .Titre3 {
+  display: flex;
+  justify-content: flex-start;
+  color: rgb(190,154,94);
+  font-size: 35px;
+  font-family: "Merienda one", sans-serif;
+  padding-bottom: 20px;
+} 
+
+.section-asymetrique .SsTitre3 {
+  display: flex;
+  justify-content: flex-start;
+  
+  color: #333;
+  font-size: 20px;
+  font-family: "Nunito sans", sans-serif;
+  padding-bottom: 20px;
+} 
+
 .bloc-1,
 .img-grid-1 {
   grid-area: 1/2/2/3;;
